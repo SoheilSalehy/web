@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        article{
+            background-color: palevioletred; width: 200px; height: 200px;
+        }
+    </style>
+
+    <section>
+        <article id="a1">
+            <b>append html</b><br>
+            <input id="btn1" type="button" value="ok">  
+            <input id="txt1" type="text" placeholder="Name:">
+            <input type="text" placeholder="Family:" id="txt2">
+            <br>
+            <input type="submit" value="ارسال">
+            
+        </article>
+    </section>
+
+    <script>
+        document.getElementById("btn1")
+            .addEventListener('click',function(){
+                let temp = document.getElementById("a1") .innerHTML;
+                document.getElementById("a1") .innerHTML = temp + 
+                
+            })
+    </script>
+</body>
+</html>
