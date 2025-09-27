@@ -1,5 +1,5 @@
 let http = require ('http');
-let hichi = 55;
+//testing
 let server = http.createServer(requestHandler);
 server.listen(80);
 console.log("server is running on port:" + port)
